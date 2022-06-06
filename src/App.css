@@ -1,7 +1,7 @@
 :root
 {
   --yellow: #F5C32C;
-    --orange : #FCA61F;
+    --blue : #3c7ad8;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
@@ -17,7 +17,32 @@
     color: var(--black);    
 }
 
+.button{
 
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px ;
+  background: linear-gradient(180deg, #3c7ad8 26.71%, #3c7ad1 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  transition: 0.4s;
+}
+
+.button:hover{
+
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  transition: 0.4s;
+}
+
+@media  screen and (max-width: 480px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}
   
 
   
