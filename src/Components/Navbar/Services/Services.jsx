@@ -14,6 +14,7 @@ import PHP from "../../../img/php.png";
 import { themeContext } from "../../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import Computer from '../../../img/computer-repair.jpg'
 
 function Services() {
   const transition = { duration: 2, type: "spring" };
@@ -29,7 +30,8 @@ function Services() {
         <spane>
           I have an Entry-level skillset in Web Design, Web Development and FrontEnd Technologies.
           <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          I have worked on various self-projects that helped me sharpen my skills in the Developer world.
+
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -44,6 +46,23 @@ function Services() {
           <img src={REACT} className="lang" alt="" />
           <br />
           <img src={PHP} className="lang" alt="" />
+          <br />
+          <div className="back-img" style={{backgroundImage: `url(${Computer})`,
+           backgroundPosition: "center",
+           backgroundRepeat :'no-repeat',
+           backgroundSize: 'cover',
+           width: '400px',
+           height: '300px',
+           borderRadius: '15px'
+            
+            }}>
+
+              <div className="back-text">
+                <span>An aspiring Developer and IT Technician.</span>
+              </div>
+            
+          </div>
+          
         </div>
 
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -92,7 +111,7 @@ function Services() {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum is a dummy text are usually easy to use where ever you want"
+              "I can design single-page websites for clients. Personal, blog or Portfolio."
             }
           />
         </motion.div>

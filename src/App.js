@@ -9,6 +9,7 @@ import Contact from "./Components/Navbar/Contact/Contact";
 import Footer from "./Components/Navbar/Footer/Footer";
 import {themeContext} from './Context'
 import { useContext } from "react";
+import ScrollButton from "./Components/Navbar/Scrollbutton/Scrollbutton";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Footer/>
+      <ScrollButton />
     </div>
   );
 }

@@ -11,6 +11,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import { themeContext } from "../../../Context";
 import { useContext} from 'react'
 import {motion} from 'framer-motion'
+import Link from 'react-scroll/modules/components/Link';
 
 
 
@@ -32,8 +33,11 @@ function Intro() {
                     As a student, I have worked on various self-projects that sharpened my skills as a Developer and IT Technician.
                 </span>
             </div>
-
-            <button className="button i-button">Hire Me!</button>
+            
+            <Link spy={true} to='Contact' smooth={true}>
+                <button className="button i-button">Hire Me!</button>
+            </Link>
+            
 
             <div className="i-icons">
                 <a href="https://github.com/Elijah-Prog" target="_blank" rel="noreferrer"><i className="fa fa-github fa-5x" style={{color: darkMode ? 'white' : '#3C7AD8'}}></i></a>

@@ -2,6 +2,7 @@ import React from "react";
 import "./Works.css";
 import { themeContext } from "../../../Context";
 import { useContext} from 'react'
+import Link from 'react-scroll/modules/components/Link';
 
 function Works() {
   const theme = useContext(themeContext);
@@ -17,7 +18,10 @@ function Works() {
         <spane>
           
         </spane>
-        <button className="button s-button">Hire me</button>
+        <Link spy={true} to='Contact' smooth={true}>
+           <button className="button s-button">Hire me</button>
+        </Link>
+       
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
     </div>

@@ -13,10 +13,18 @@ function Footer() {
         <div className="f-content">
             <span>mthobelimakaluza@gmail.com</span>
             <div className="f-icons">
-                <Insta color='white' size={"3rem"}/>
-                <Facebook color='white' size={"3rem"}/>
+              <a href="https://www.instagram.com/mthobelimakaluza/" target="_blank" rel="noreferrer">
+              <Insta color='white' size={"3rem"}/>
+              </a>
+              <a href="https://facebook.com/Mthormakaluz/" target="_blank" rel="noreferrer">
+                 <Facebook color='white' size={"3rem"}/>
+              </a>
+              <a href="https://www.linkedin.com/in/mthobeli-makaluza-119a7b191/" target="_blank" rel="noreferrer">
                 <Linkedin color='white' size={"3rem"}/>
+              </a>
+              <a href="https://github.com/Elijah-Prog" target="_blank" rel="noreferrer">
                 <Github color='white' size={"3rem"}/>
+              </a>
             </div>
         </div>
     </div>
