@@ -22,9 +22,9 @@ function App() {
       color: darkMode ? "white" : "",
     }}
     >
-      <div style={{textAlign: 'center', background:'#3c7ad8', color: 'white', fontSize: '10px'}}>
+      {/* <div style={{textAlign: 'center', background:'#3c7ad8', color: 'white', fontSize: '10px'}}>
         <span>This is a demo version of my portfolio website.</span>
-      </div>
+      </div> */}
       <Navbar/>
       <Intro/>
       <Services/>
