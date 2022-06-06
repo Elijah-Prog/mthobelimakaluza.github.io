@@ -30,7 +30,7 @@ function Services() {
         <spane>
           I have an Entry-level skillset in Web Design, Web Development and FrontEnd Technologies.
           <br />
-          I have worked on various self-projects that helped me sharpen my skills in the Developer world.
+          I have worked on various self-projects that helped me sharpen my skills in the Software Development field.
 
         </spane>
         <a href={Resume} download>

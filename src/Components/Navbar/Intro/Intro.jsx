@@ -28,7 +28,7 @@ function Intro() {
                 <span style={{color: darkMode ? 'white' : '',}}>Hi! I Am </span>
                 <span>Mthobeli Makaluza</span>
                 <span>A Information and Communications Technology student at the Cape Peninsula University of Technology (CPUT) in Cape Town, South Africa. I am an aspiring web Developer and web Designer with the passion for learning new Technologies.
-                    I hape an Entry-level skillset in Computer Assembly, Computer Hardware Upgrade and Computer Troubleshooting.
+                    I have an Entry-level skillset in Computer Assembly, Computer Hardware Upgrade and Computer Troubleshooting.
                     <br/>
                     As a student, I have worked on various self-projects that sharpened my skills as a Developer and IT Technician.
                 </span>
