@@ -51,7 +51,7 @@ function Services() {
            backgroundPosition: "center",
            backgroundRepeat :'no-repeat',
            backgroundSize: 'cover',
-           width: '450px',
+           width: '425px',
            height: '300px',
            borderRadius: '15px'
             
