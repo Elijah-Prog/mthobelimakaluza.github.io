@@ -18,10 +18,13 @@ function App() {
   return (
     <div  className="App"
     style={{
-      background: darkMode ? "black" : "",
+      background: darkMode ? "#212121" : "",
       color: darkMode ? "white" : "",
     }}
     >
+      <div style={{textAlign: 'center', background:'#3c7ad8', color: 'white', fontSize: '10px'}}>
+        <span>This is a demo version of my portfolio website.</span>
+      </div>
       <Navbar/>
       <Intro/>
       <Services/>
