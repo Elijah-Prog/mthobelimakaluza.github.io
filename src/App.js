@@ -10,19 +10,8 @@ import Footer from "./Components/Navbar/Footer/Footer";
 import {themeContext} from './Context'
 import { useContext, useEffect } from "react";
 import ScrollButton from "./Components/Navbar/Scrollbutton/Scrollbutton";
-import ReactGa from 'react-ga'
 
 function App() {
-
-  useEffect(() =>{
-
-    ReactGa.initialize('G-ZVYLSBBMZM')
-
-    //to report page view
-
-    ReactGa.pageview('/')
-
-  }, [])
 
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
