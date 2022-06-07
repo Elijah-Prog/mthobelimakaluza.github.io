@@ -11,7 +11,7 @@ function Footer() {
     <div className="footer">
         <img src={Wave} alt="" style={{width:"100%"}}/>
         <div className="f-content">
-            <span>mthobelimakaluza@gmail.com</span>
+        <a href="mailto:mthobelimakaluza@gmail.com">mthobelimakaluza@gmail.com</a>
             <div className="f-icons">
               <a href="https://www.instagram.com/mthobelimakaluza/" target="_blank" rel="noreferrer">
               <Insta color='white' size={"3rem"}/>
