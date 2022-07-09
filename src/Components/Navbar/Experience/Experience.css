@@ -57,6 +57,6 @@
         display: flex;
         gap: 2rem;
         flex-direction:row;
-
+        height: 50vh;
     }
 }
