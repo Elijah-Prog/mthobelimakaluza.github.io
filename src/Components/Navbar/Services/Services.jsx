@@ -4,7 +4,7 @@ import glassesimoji from "../../../img/glassesimoji.png";
 import HeartEmoji from "../../../img/heartemoji.png";
 import Humble from "../../../img/humble.png";
 import Card from "../Card/Card";
-import Resume from "./resume.pdf";
+import Resume from "./Resume(Updated).pdf";
 import HTML from "../../../img/html-5.png";
 import CSS from "../../../img/css3.png";
 import JS from "../../../img/js.png";

@@ -11,7 +11,7 @@ function Contact() {
     const form = useRef();
 
     const [done,setDone] = useState(false);
-
+    // Here we send a form for contact from potential employers
     const sendEmail = (e) => {
       e.preventDefault();
   
